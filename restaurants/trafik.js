@@ -6,7 +6,7 @@ module.exports = {
 	url: 'https://www.facebook.com/trafikapollo/',
 	getMenu: body => {
 		const $ = cheerio.load(body);
-		const dailyMenu = $('.userContent').filter((i,e) => {
+		const dailyMenu = $('.userContent').filter((i, e) => {
 			return e.children.length;
 		}).eq(0).find('.text_exposed_root').text();
 

@@ -4,6 +4,13 @@
 
 ![daily-menu screencast](/assets/screencast.gif)
 
+
+## Prerequisites
+ 
+* Node.js >=7
+* npm
+
+
 ## Install
 
 ```
@@ -63,6 +70,7 @@ This utility is currently capable of retrieving offers from these restaurants:
 * [István Pince Borozó & Étterem](https://www.facebook.com/istvanpince/)
 * [Fiáker Étterem](http://www.fiakeretterem.hu/)
 * [Trafik](https://www.facebook.com/trafikapollo/)
+* [Mátyás Király Vendéglö](http://www.matyasvendeglo.hu/)
 
 
 ## License

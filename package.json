@@ -1,6 +1,6 @@
 {
 	"name": "daily-menu",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "Scraper utility tool to fetch daily menus around the Yco office.",
 	"license": "MIT",
 	"repository": "wolfika/daily-menu",
@@ -27,8 +27,10 @@
 	],
 	"dependencies": {
 		"cheerio": "^1.0.0-rc.2",
+		"cli-spinners": "^1.1.0",
 		"got": "^7.1.0",
 		"he": "^1.1.1",
+		"ora": "^1.3.0",
 		"require-all": "^2.2.0",
 		"striptags": "^3.1.0",
 		"tty-table": "^2.5.5"
